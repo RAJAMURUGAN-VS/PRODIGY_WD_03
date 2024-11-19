@@ -1,0 +1,50 @@
+.bg-container {
+    background: radial-gradient(circle, #1e3c72, #2a5298);
+    font-family: "Bree Serif";
+    margin: 0;
+}
+
+.game-container {
+    background: radial-gradient(circle, #ffffff, #e3e3e3);
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+}
+
+.option-box {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grid-item {
+    font-size: 30px;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameStatus {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#resetBtn {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
